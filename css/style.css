@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Open+Sans:300,700,800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	/* margin-bottom: 0!important; */
+	}
+
+.container{}
+	h1 ,h2,h3,h4,h5,h6{
+		margin-bottom: 0;
+	}
+body{}
+
+
+/*------------------------------prehead start----------------------------*/
+.prehead{
+    display: flex;
+    justify-content: flex-end;
+    background: #f0f2f4;
+    margin: 5px;
+}
+.number_6337{
+    margin: 0px 10px 0 40px;
+    background: #f0f2f4;
+}
+.number_6337 h6{
+    font-size: 10px;
+    margin: 0;
+}
+.number_6337 h6 i{}
+/*------------------------------prehead end----------------------------*/
+
+/*------------------------------head start----------------------------*/
+/* --------logo----------- */
+.logo{
+
+max-width: 160px;
+}
+.logo img{
+
+max-width: 100%;
+}
+/* --------logo----------- */
+
+/* --------nav----------- */
+.nav{}
+.nav_ul{
+
+}
+.nav_ul:hover{
+
+
+}
+.nav_text{
+	/* border: 1px black solid; */
+	border-top: 2px black solid;
+	border-bottom: 2px black solid;
+	border-radius: 3px;
+	padding: initial;
+	transition: all 0.4s ease;
+	margin: 5px;
+
+}
+.nav_text:hover{
+	opacity: 1!important;
+	 transform: scale(1.2);
+	 border: 2px black solid;
+	 background-color: #DE2B24;
+	 color: white!important;
+
+}
+.list_li:hover{
+
+
+}
+.nav_btn_text{}
+.all_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.
+.
+.
+.
+/* --------nav----------- */
+/*------------------------------head end----------------------------*/
+
+/*------------------------------our start----------------------------*/
+
+
+    <!-- Demo styles -->
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+  max-height: 70vh!important;
+}
+.swiper-slide img{
+	width: 100vw;
+
+}
+.swiper-slide{
+		position: relative;
+}
+
+.swiper_text{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+	text-align: center;
+	margin: auto;
+	color: white;
+}
+.swiper_text h1{
+	text-transform: uppercase;
+	padding: 10px;
+}
+.swiper_text h3 {
+	text-transform: capitalize;
+	padding: 5px;
+}
+.swiper_text button{
+	text-transform: uppercase;
+	padding: 10px;
+	margin: 20px;
+
+}
+.swiper_text button a{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------our end----------------------------*/
+
+/*------------------------------our start----------------------------*/
+
+/*------------------------------our end----------------------------*/
+/*------------------------------our start----------------------------*/
+
+/*------------------------------our end----------------------------*/
+/*------------------------------our start----------------------------*/
+
+
+/*------------------------------our end----------------------------*/
+
+/*------------------------------our start----------------------------*/
+.ourwork{
+
+}
+.our_work_text{
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    padding: 20px;
+}
+.our_work_text h1{
+    margin-bottom: 0;
+}
+.our_work_text h6{
+    padding: 10px;
+    margin-bottom: 0;
+}
+.whiteline{
+    padding: 1px;
+    background: white;
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+
+/*--------our_work_img -----------------*/
+.our_work_img{
+    display: flex;
+    justify-content: space-around;
+}
+.our_work_img_img1{}
+.our_work_img_img1 img{
+	height: 275px;
+	width: 270px;
+	-webkit-transition: all 1.5s ease;
+	-moz-transition: all 1.5s ease;
+	-o-transition: all 1.5s ease;
+	-ms-transition: all 1.5s ease;
+	transition: all 1.5s ease;
+	padding: 0;
+	border: 10px #fffcfc solid;
+	position: relative;
+	margin: auto;
+	border-radius: 10px;
+}
+.our_work_img_img1 img:hover{
+	border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+
+}
+
+
+.our_work_img_text{
+
+background: #f35e58;
+
+margin: auto;
+
+color:white;
+
+text-transform:capitalize;
+
+text-align:center;
+
+font-weight: bold;
+
+padding: 80px 0;
+
+height: 275px;
+
+width: 270px;
+
+border-radius: 10px;
+
+border: 10px white solid;
+}
+
+.our_work_img_text:hover{}
+/* .our_work_img_img1::before{
+	content: "project name facebook marketing";
+	position: absolute;
+	max-width: 20px;
+	color: white;
+	font-weight: bold;
+	left: 50%;
+	top: 50%;
+	transform: translate(-59%,-50%);
+} */
+
+.our_work_img_img2 img{
+	height: 275px;
+	width: 270px;
+	-webkit-transition: all 1.5s ease;
+	-moz-transition: all 1.5s ease;
+	-o-transition: all 1.5s ease;
+	-ms-transition: all 1.5s ease;
+	transition: all 1.5s ease;
+	padding: 0;
+	border: 10px #fffcfc solid;
+	margin: auto;
+	border-radius: 10px;
+}
+.our_work_img_img2 img:hover{
+	border-radius: 50%;
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+	position: relative;
+	background: black;
+	padding: 10px;
+}
+/* .our_work_img_img1::before{
+	content: "project name facebook marketing";
+	position: absolute;
+	max-width: 20px;
+	color: white;
+	font-weight: bold;
+	left: 50%;
+	top: 50%;
+	transform: translate(-59%,-50%);
+} */
+
+.our_work_img_img3 img{
+	-webkit-transition: all 1.5s ease;
+	-moz-transition: all 1.5s ease;
+	-o-transition: all 1.5s ease;
+	-ms-transition: all 1.5s ease;
+	transition: all 1.5s ease;
+	padding: 0;
+	border: 10px #fffcfc solid;
+	height: 275px;
+	width: 270px;
+	margin: auto;
+}
+.our_work_img_img3 img:hover{
+	border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+    position: relative;
+}
+/* .our_work_img_img1::before{
+	content: "project name facebook marketing";
+	position: absolute;
+	max-width: 20px;
+	color: white;
+	font-weight: bold;
+	left: 50%;
+	top: 50%;
+	transform: translate(-59%,-50%);
+} */
+
+.our_work_img_img4 img{
+	-webkit-transition: all 1.5s ease;
+	-moz-transition: all 1.5s ease;
+	-o-transition: all 1.5s ease;
+	-ms-transition: all 1.5s ease;
+	transition: all 1.5s ease;
+	padding: 0;
+	border: 10px #fffcfc solid;
+	margin: auto;
+	height: 275px;
+	width: 270px;
+	border-radius: 10px;
+}
+.our_work_img_img4 img:hover{
+	border-radius: 50%;
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+	background: black;
+	padding: 10px;
+	position: relative;
+}
+/* .our_work_img_img1::before{
+	content: "project name facebook marketing";
+	position: absolute;
+	max-width: 20px;
+	color: white;
+	font-weight: bold;
+	left: 50%;
+	top: 50%;
+	transform: translate(-59%,-50%);
+} */
+
+/*------our_work_img end-----------*/
+
+/*------------------------------ourwork end----------------------------*/
+
+/*------------------------------form start----------------------------*/
+.formcontant{
+
+text-align: center;
+}
+
+.form_contant_text{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 55px 0;
+}
+.form_contant_text h1{}
+.form_contant_text h6{
+    padding: 10px;
+}
+.form_contant_text i{
+    padding: 10px;
+}
+.form{
+	padding: 25px;
+}
+.form_input{
+	margin: 10px auto;
+}
+.form_text h6{
+	color: white;
+	font-size: 14px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.formcontant h4{
+	color: white;
+	cursor: pointer;
+	width: 75px;
+	margin: auto;
+	border: 5px white solid;
+	border-radius: 50%;
+	height: 75px;
+	font-size: 15px;
+	padding: 14px 0;
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+}
+.formcontant h4:hover{
+	background:#f35e58;
+	transform: scale(1.1);
+}
+/*------------------------------form end----------------------------*/
+
+/*------------------------------prefooter start----------------------------*/
+
+.prefooter{
+	background: #2a2a2a;
+}
+.prefooter_data{
+    text-align: center;
+    padding: 40px 0;
+}
+.prefooter_data h1{margin: 31px;color: white;text-transform: capitalize;}
+.contact_icon{
+    /* margin-bottom: 0!important; */
+}
+.contact_icon i{
+    margin: 0 15px;
+    font-size: xx-large;
+    color: aquamarine;
+}
+.prefooter_data h6{
+    margin: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: white;
+}
+.prefooter_data input{
+
+background: #515151;
+
+display: flex;
+
+justify-content: center;
+
+text-align: center;
+
+margin: auto;
+
+font-size: 20px;
+}
+.prefooter_data img{
+    max-width: 150px;
+    margin: 15px;
+}
+
+/*------------------------------prefooter end----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------footer start----------------------------*/
+footer{}
+.contant{
+    background: #515151;
+}
+.contant h6{
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+}
+/*------------------------------footer end----------------------------*/
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+*/
